@@ -11,7 +11,7 @@ public class ArticleMapper {
 
     ArticleBlockMapper articleBlockMapper = new ArticleBlockMapper();
 
-    public ArticleDto map(Article article){
+    public ArticleDto map(Article article) {
         ArticleDto articleDto = new ArticleDto();
         if (article != null) {
             articleDto.setId(article.getId());
